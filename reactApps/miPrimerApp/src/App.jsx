@@ -3,16 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Saludo from './Saludo.jsx' 
 
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
+ return (
     <>
       <section id="center">
         <div>
           <h1>Jorge Osornio Carrillo</h1>
         </div>
+        <Saludo nombre='YORCH' tipo='dias'/>
       </section>
 
     </>
